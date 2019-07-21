@@ -12,7 +12,7 @@ console.log(first + ' ' + second);
 var multiply = function multiply() {
   var a = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '1';
   var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '1';
-  return console.log('' + a * b);
+  return console.log(a * b);
 };
 multiply(2, 5);
 multiply(3);
